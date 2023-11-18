@@ -1,0 +1,612 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Baloo 2', cursive;
+font-family: 'Baloo Bhai 2', cursive;
+font-family: 'Bree Serif', serif;
+font-family: 'IBM Plex Sans', sans-serif;
+font-family: 'Merriweather Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+header {
+    width: 100%;
+    float: left;
+    padding: 20px 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 4;
+}
+
+.logo {
+    width: 20%;
+    float: left;
+}
+
+.logo img {
+    cursor: pointer;
+
+}
+
+.nav {
+    float: left;
+    width: 80%;
+}
+
+.nav ul {
+    margin: 0;
+    padding: 0;
+    float: right;
+}
+
+.nav ul li {
+    float: left;
+    padding: 20px;
+    list-style: none;
+
+}
+
+
+.nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+
+.nav ul li:hover a {
+    color: blueviolet;
+}
+
+
+
+.slide {
+    padding-top: 120px;
+    width: 100%;
+    float: left;
+    position: relative;
+    background: #dce7e7;
+    overflow: hidden;
+    box-sizing: border-box;
+    margin-bottom: 3%;
+    height: 630px;
+
+
+}
+
+.slide::before{
+               content: "";
+               background: url(../img/service-circle-2.png)no-repeat;
+               height: 987px;
+               width: 575px;
+               z-index: 1;
+               position: absolute;
+               top:-567px;
+               right:-15px;
+               background-size: cover;
+}
+
+
+.down {
+    width: 100%;
+    float: left;
+    position: relative;
+    z-index: 2;
+}
+
+
+.down ul {
+    margin: 0;
+    padding: 0;
+}
+
+.down ul li:first-child {
+    width: 45%;
+    float: left;
+}
+.down ul li:first-child::after{
+                                content: "";
+                                background: url(../img/triangle1.png);
+                                position: absolute;
+                                top:48px;
+                                left:163px;
+                                z-index: 5;
+                                width: 79px;
+                                height: 101px;
+}
+
+
+.down ul li:first-child::before{
+    content: "";
+    background: url(../img/about-tringle-right.png);
+    position: absolute;
+    top:82%;
+    left:44%;
+    z-index: -1;
+    width: 99px;
+    height: 80px;
+}
+
+
+.down ul li:last-child{
+    width: 50%;
+    float: right;
+ 
+}
+
+.down ul li {
+    list-style: none;
+}
+
+
+.down ul li img {
+    width: 100%;
+}
+
+.down ul li h1 {
+    font-size: 5rem;
+    font-weight: 600;
+    line-height: 1px;
+    padding-top: 37px;
+    z-index: 2;
+}
+
+.down ul li p {
+    font-size: 24px;
+}
+
+.head1{
+       width: 100%;
+       float:left;
+       margin-bottom: 5%;
+      
+}
+.head1 h1{
+         color: skyblue;
+         float: left;
+         width: 100%;
+         text-align: center;
+         line-height: 0px;
+         font-size: 40px;
+}
+
+.head1 p{
+             float: left;
+             width: 100%;
+             text-align: center;
+             line-height: 0px;
+             font-size: 20px;
+}
+
+
+
+.head2{
+       width: 100%;
+       float: left;
+       margin-bottom: 5%;
+       position: relative;
+}
+
+.head2 ul{
+        margin: 0;
+        padding: 0;
+}
+
+.head2 ul li:first-child{
+                          list-style: none;
+                          float: left;
+                          width: 40%;
+}
+
+.head2 ul li:first-child::after{
+    content: "";
+    background: url(../img/service-icon-1.png);
+    position: absolute;
+    top:82%;
+    left:31%;
+    z-index: -1;
+    width:181px;
+    height:173px;
+
+}
+
+.head2 ul li:last-child h2{
+                             color:blue;
+                             font-size: 26px;
+}
+.head2 ul li:last-child p{
+                            font-size: 18px;
+}
+
+.head2 ul li:last-child ul li h2{
+                                  color: blue;
+                                  font-size: 20px;
+}
+
+.head2 ul li:last-child ul li p{
+                                   font-size: 16px;
+}
+
+.head2 ul li:first-child img{
+                               width: 90%;
+                               float: left;
+}
+
+
+.head2 ul li:last-child{
+                        list-style: none;
+                        float: left;
+                        width: 55%;
+}
+
+.head2 .head2-right{
+                    width: 100%;
+                    float: left;
+}
+
+.head2 .head2-right ul{
+                       margin: 0;
+                       padding: 0;
+}
+
+.head2 .head2-right ul li{
+                           list-style: none;
+                           float: left;
+                           width: 45%;
+                           border: 1px solid;
+                           box-shadow: 0px 0px 5px -2px;
+                           border-radius: 8px;
+                           min-height: 145px;
+                           text-align: center;
+                           margin: 10px;
+                           padding: 0px 4px;
+                           background-color: white;
+                           
+                           
+}
+
+
+.training{
+           width: 100%;
+           float:left;
+           position: relative;
+           margin-bottom: 3%;
+}
+
+.training ul{
+              margin: 0;
+              padding: 0;
+}
+
+
+.training ul li:first-child{
+                                list-style: none;
+                                float: left;
+                                width: 55%;
+}
+
+.training ul li:first-child h1{
+                                 font-size: 35px;
+                                 color: blue;
+}
+
+
+.training ul li:first-child p{
+                               font-size: 18px;
+                               
+}
+
+
+.training ul li:last-child{
+                             list-style: none;
+                             float: left;
+                             width: 40%; 
+                            
+}
+
+.training ul li:last-child::after{
+    background: url(../img/service-icon2.png)no-repeat;
+    background-size:cover ;
+    content:"";
+    height: 142px;
+    width: 142px;
+    position: absolute;
+    z-index: -3;
+    top: 712px;
+    right: 605px;
+
+}
+.training ul li:last-child img{
+                                width: 91%;
+                                margin-top: 18rem;
+
+                                float: right;
+}
+
+.training .training-right{
+                            width: 100%;
+                            float: left;
+} 
+
+.training .training-right p{
+                           border: 1px solid white;
+                           margin-top: 15px;
+                           box-shadow: 0px 0px 1px 0px;
+                           padding: 26px 18px;
+                           min-height: 46px;
+                           border-radius: 8px;
+                           text-align: center;
+                          
+
+}
+
+.hr-adv{
+         width: 100%;
+         float: left;
+         margin-bottom: 6%;
+}
+.hr-adv ul{
+              margin: 0;
+              padding: 0;
+}
+.hr-adv ul li:first-child{
+                           list-style: none;
+                           width: 40%;
+                           float:left;
+}
+
+.hr-adv ul li:first-child img{
+                              width: 100%;
+                              float: left;
+}
+
+.hr-adv ul li:last-child{
+    list-style: none;
+    width: 55%;
+    float:right;
+}
+
+.hr-adv .hr-right{
+                   width: 100%;
+                   float: left;
+                
+}
+
+.hr-adv .hr-right ul{
+                     margin: 0;
+                     padding: 0;
+}
+
+.hr-adv .hr-right ul li{
+    float: left;
+    list-style: none;
+    width: 100%;
+    box-shadow: 0px 0px 1px 0px;
+    border: 1px solid white;
+    border-radius: 8px;
+    padding: 14px 18px;
+    margin-bottom: 15px;
+}
+
+.hr-adv .hr-right ul li h2{
+               color: blue;
+}
+.hr-adv ul li h1{
+    color: blue;
+}
+
+.main1{
+     width: 100%;
+     float: left;
+     background-color:#f1f4f4;
+}
+
+.main1 .main2{
+               width: 100%;
+               float: left;
+               margin-bottom: 2%;
+}
+.main1 .main2 h1{
+                 width: 100%;
+                 text-align: center;
+}
+
+.main1 .main2 p{
+    width: 100%;
+    text-align: center;
+}
+
+.main1 .main3{
+               width: 100%;
+               float: left;
+               margin-bottom: 5%;
+}
+.main1 .main3 ul{
+    margin: 0;
+    padding: 0;
+}
+
+.main1 .main3 ul li{
+     list-style: none;
+     float: left;
+     width: 25%;
+     text-align: center;
+     padding: 50px 0px 50px 0px;
+}
+
+.main1 .main3 ul li .popupimg{                  
+          display: none; 
+          margin: 0 auto;             
+}
+.main1 .main3 ul li .popupimg1{
+    display: block;
+    margin: 0 auto;
+}
+
+.main1 .main3 ul li:hover{
+    background: #00afba;
+}
+
+.main1 .main3 ul li:hover .popupimg{
+    display: block
+}
+
+.main1 .main3 ul li:hover .popupimg1{
+    display: none
+}
+
+
+.footer{
+    width: 100%;
+    float: left;
+    margin-bottom: 4%;
+}
+
+.footer ul{
+       margin: 0;
+       padding: 0;
+}
+
+.footer ul li{
+          list-style: none;
+          float: left;
+
+}
+
+.footer ul li .social{
+              width:100%; 
+              margin: 10px;
+}
+
+.footer ul li div img{
+                    width: 4%;
+                    float: left;
+                    padding: 19px;
+
+}
+
+
+.footer ul li:nth-child(1){
+                       width: 40%;
+                       float: left;
+}
+
+
+
+.footer ul li:nth-child(2){
+                            width: 20%;
+                            float: left;
+
+}
+
+
+.footer ul li:nth-child(3){
+                        width: 20%;
+                        float: left;
+
+}
+
+
+.footer ul li:nth-child(4){
+                         width: 20%;
+                         float: left;
+
+}
+
+
+.copyr{
+   width: 100%;
+   float: left;
+   margin-bottom: 1%;
+}
+
+
+.copyr p{
+     float: left;
+     text-align: center;
+     width: 100%;
+     color: gray;
+}
+
+.togle1{
+    width: 400px;
+    float: left;
+     background-color:#00afba;
+     position: absolute;
+     top: 0;
+     right: 0;
+     z-index: 5;
+     display: none;
+     height:100vh;
+         
+}
+
+
+.togle1 ul{
+       margin: 0;
+       padding: 0;
+       line-height: 42px;
+       margin-top: 51px;
+}
+
+.togle1 ul li{
+           list-style: none;
+           margin: 15px;
+           width: 80%;
+           border-bottom: 1px white dotted;
+           
+
+} 
+
+.togle1 .toggleic{
+                     width: 100%;
+                     margin-left: 17px;
+}
+
+
+.togle1 .toggleic img{
+              width: 6%;
+              float: left;
+              padding: 21px;
+}
+
+
+.togle1 ul li a{
+            color: white;
+            text-decoration: none;
+            font-size: 23px;
+            
+}
+
+.togle1 ul li a:hover{
+                 color: blue;
+} 
+
+
+
+.close{
+   position: absolute;
+   top: 11px;
+   right: 12px;
+}
+
+.togle1.test{
+display: block;
+}
+
+.togle1.test1{
+display: none;
+}
+
+
+
